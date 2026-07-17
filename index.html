@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+        <p>Explore the beauty of mountains, forests, lakes, waterfalls, sunsets, and flowers through stunning visuals.</p>
+    </header>
+<div class="filter-buttons"> 
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="mountains">Mountains</button>
+    <button data-filter="forest">Forest</button>
+    <button data-filter="lakes">Lakes</button> 
+    <button data-filter="desert">Desert</button>
+    <button data-filter="beach">Beach</button>
+    <button data-filter="waterfalls">Waterfalls</button>
+    <button data-filter="sunsets">Sunsets</button>
+    <button data-filter="flowers">Flowers</button>
+</div>
+<div class="gallery">
+    <img src="image/image1.jpg" alt="Image 1" data-category="mountains">
+    <img src="image/image2.jpg" alt="Image 2" data-category="lakes">
+    <img src="image/image3.jpg" alt="Image 3" data-category="lakes">
+    <img src="image/image4.jpg" alt="Image 4" data-category="sunsets">
+    <img src="image/image5.jpg" alt="Image 5" data-category="forest">
+    <img src="image/image6.jpg" alt="Image 6" data-category="forest">
+    <img src="image/image7.jpg" alt="Image 7" data-category="sunsets">
+    <img src="image/image8.jpg" alt="Image 8" data-category="sunsets">
+    <img src="image/image9.jpg" alt="Image 9" data-category="beach">
+    <img src="image/image10.jpg" alt="Image 10" data-category="mountains">
+    <img src="image/image11.jpg" alt="Image 11" data-category="beach">
+    <img src="image/image12.jpg" alt="Image 12" data-category="desert">
+    <img src="image/image13.jpg" alt="Image 13" data-category="desert">
+    <img src="image/image14.jpg" alt="Image 14" data-category="waterfalls">
+    <img src="image/image15.jpg" alt="Image 15" data-category="waterfalls">
+    <img src="image/image16.jpg" alt="Image 16" data-category="waterfalls">
+    <img src="image/image17.jpg" alt="Image 17" data-category="waterfalls">
+    <img src="image/image18.jpg" alt="Image 18" data-category="flowers">
+    <img src="image/image19.jpg" alt="Image 19" data-category="flowers">
+    <img src="image/image20.jpg" alt="Image 20" data-category="lakes">
+    <img src="image/image21.jpg" alt="Image 21" data-category="flowers">
+    <img src="image/image22.jpg" alt="Image 22" data-category="desert">
+    <img src="image/image23.jpg" alt="Image 23" data-category="mountains">
+    <img src="image/image24.jpg" alt="Image 24" data-category="forest">
+</div>
+<div class="lightbox"> 
+    <span class="close">&times;</span>
+    <button class="prev">&#10094;</button>
+    <img class="lightbox-img" src="" alt="">
+    <button class="next">&#10095;</button>
+     <a class="download" href="" download>
+        ⬇ Download
+    </a>
+    <p class="counter"></p>
+</div>
+<button id="topBtn">↑</button>
+<footer>
+<p>🌿 Nature Gallery</p>
+<p>Created for CodeAlpha Frontend Internship</p>
+<p>© 2026 All Rights Reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
